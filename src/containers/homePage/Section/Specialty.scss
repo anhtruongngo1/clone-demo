@@ -1,0 +1,98 @@
+.section-specialty {
+    height          : 300px;
+    width           : 100%;
+    margin-top      : -159px;
+    background-color: white;
+    overflow: hidden;
+
+
+    .specialty-container {
+        margin        : 0 170px;
+        display       : flex;
+        flex-direction: column;
+        overflow: hidden;
+
+        .specialty-header {
+            height: 60px;
+            margin-bottom: 20px;
+            padding-top: 20px;
+             span{
+                 font-size: 22px;
+                 font-weight: 600;
+             }
+             button{
+                 float: right;
+                 padding: 10px 15px;
+                 border: none ;
+                 outline: none;
+                 display: block;
+                 background : #ebebeb ;
+                 color : black ;
+                 cursor: pointer;
+                 text-transform: uppercase;
+                 &:hover{
+                     color : white ;
+                     background : #f7d800;
+                 }
+             }
+        }
+
+        .specialty-body {
+           
+            .specialty-customize{
+                .bg-image{
+                    width: 278px;
+                    height: 150px;                 
+                    background-position: center center;
+                    background-repeat: no-repeat ;
+                    background-size: cover;
+                    background-color: white;
+                }
+            }
+            // reset slick slider css
+            // .slick-slide{              
+            //             width: 300px!important;
+            //     } 
+            .slick-disabled{
+                display: none !important; /// làm khi click đến hêt thì nó sẽ ẩn cái next hoặc pre
+            }
+
+            .slick-prev {
+                background-color: red !important;
+
+                left   : 0 !important;
+                z-index: 2;
+                height : 40px !important;
+                width  : 40px !important;
+                top: 80px;
+                background: transparent !important;
+            }
+            .slick-next:before {
+                font-size: 35px;
+                line-height: 1;
+                opacity: .75;
+                color: black;
+            }
+            .slick-prev:before {
+                font-size: 35px !important;
+                line-height: 1 !important;
+                opacity: .75 !important;
+                color: black !important;
+               
+            }
+
+            .slick-next {
+                background-color: blue !important;
+                right           : 0 !important;
+                height          : 40px !important;
+                width           : 40px !important;
+                top: 80px;
+                background: transparent !important;
+            }
+
+
+        }
+
+    }
+
+}

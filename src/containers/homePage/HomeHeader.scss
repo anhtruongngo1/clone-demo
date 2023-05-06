@@ -1,0 +1,183 @@
+.home-header-container {
+    height: 60px;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background : white;
+
+    .home-header-content {
+        width  : 100%;
+        height : 100%;
+        display: flex;
+        padding: 0 20px;
+
+        .left-content {
+            display    : flex;
+            width      : 25%;
+
+            align-items: center;
+            justify-content:center ;
+
+            .header-icon {
+                font-size   : 30px;
+                color       : gray;
+                cursor      : pointer;
+                margin-right: 10px;
+            }
+
+            .header-logo {
+                height: 100%;
+            }
+        }
+
+        .center-content {
+            width          : 50%;
+            display        : flex;
+            justify-content: space-between;
+            align-items    : center;
+
+            .child-content {
+                .subs-title {
+                    font-weight: 400;
+                    font-size  : 12px;
+                }
+            }
+        }
+
+        .right-content {
+            width          : 25%;
+
+            display        : flex;
+            align-items    : center;
+            justify-content: center;
+
+            .suport {
+                font-size: 20px;
+                padding  : 5px;
+
+            }
+
+            .flats {
+                width: 60px;
+                padding: 5px;
+                display : flex;
+                align-items : center;
+                justify-content:space-between;
+                .language-vi{
+                    cursor: pointer;
+                    opacity: 0.5;
+                        &.active{
+                            opacity: 1;
+                            span{
+
+                                color: orange ;
+                            }
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
+                }
+                .language-en{
+                    cursor: pointer;
+                    opacity: 0.5;
+                    &.active{
+                        opacity: 1;
+                        span{
+
+                            color: blue ;
+                        }
+                    }
+                    &:hover{
+                        opacity: 1;
+                    }
+            }
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    height             : 800px;
+    background-image   : url('../../assets/header-background.jpg');
+    
+    background-size    : cover;
+    background-position: center;
+    background-repeat  : no-repeat;
+    padding            : 15px 0px;
+
+    .title-1 {
+        font-size  : 30px;
+        text-align : center;
+        color      : #fff;
+        text-shadow: 1px 1px 1px 1px #333;
+        margin-top : 230px;
+    }
+
+    .title-2 {
+        font-size  : 30px;
+        text-align : center;
+        color      : #fff;
+        text-shadow: 1px 1px 1px 1px #333;
+    }
+
+    .search {
+        display         : flex;
+        align-items     : center;
+        text-align      : center;
+        margin          : 0 auto;
+        width           : 400px;
+        justify-content : center;
+        padding         : 10px;
+        border-radius   : 10px;
+        background-color: #D0F0D8;
+
+        input {
+            height    : 30px;
+            width     : 300px;
+            background: transparent;
+            outline   : none;
+            border    : none;
+            font-size: 20px;
+
+        }
+    }
+
+    .options{
+        height: 50px;
+        width: 70%;
+        display: flex;
+        align-items     : center;
+        text-align: center;
+        margin: 120px auto 0;
+        background-image: linear-gradient(rgba(126,126,126,0.25),rgba(255,255,255,0.1));
+        .option-child{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction : column ;
+            align-items : center;
+            
+            .icon-child{
+                background: white;
+                width: 50px;
+                border-radius: 50%;
+                height: 100%;
+                display        : flex;
+                align-items : center;
+                justify-content : center;
+                img{
+                    height: 80%;
+                }
+            
+            }
+            .text-child{
+                font-size: 16px;
+                font-weight: bold;
+                &:hover{
+                    color: #A7E4EE ;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 430 430" style="enable-background:new 0 0 430 430;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#121331;}
+	.st1{fill:#08A385;}
+	.st2{fill:none;stroke:#121331;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#08A385;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#06A385;}
+	.st5{fill:none;stroke:#121331;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{fill:#08a88a;}
+	.st7{fill:#08A284;}
+	.st8{fill:#08A688;}
+	.st9{fill:#08a88a;}
+</style>
+<g>
+	<path className="st7" d="M229.59,299.91h-25.22c-3.31,0-6-2.69-6-6v-20.84h-20.84c-3.31,0-6-2.69-6-6v-25.22c0-3.31,2.69-6,6-6h20.84
+		V215c0-3.31,2.69-6,6-6h25.22c3.31,0,6,2.69,6,6v20.85h20.85c3.31,0,6,2.69,6,6v25.22c0,3.31-2.69,6-6,6h-20.85v20.84
+		C235.59,297.22,232.9,299.91,229.59,299.91z M210.36,287.91h13.22v-20.84c0-3.31,2.69-6,6-6h20.85v-13.22h-20.85
+		c-3.31,0-6-2.69-6-6V221h-13.22v20.85c0,3.31-2.69,6-6,6h-20.84v13.22h20.84c3.31,0,6,2.69,6,6V287.91z"/>
+	<path className="st0" d="M337.59,153.96l-18.96-14.59V54.88c0-3.31-2.69-6-6-6H85.79c-3.31,0-6,2.69-6,6v320.24c0,3.31,2.69,6,6,6
+		h226.84c3.31,0,6-2.69,6-6v-78.26l18.96-14.59c7.91-5.06,12.62-13.66,12.62-23.06v-82.18C350.21,167.61,345.5,159.02,337.59,153.96
+		z M91.79,60.88h26.54v308.24H91.79V60.88z M306.63,369.12h-176.3V60.88h176.3V369.12z M338.21,259.2c0,5.34-2.71,10.22-7.24,13.05
+		c-0.17,0.1-0.33,0.22-0.48,0.33l-11.86,9.13V154.5l11.86,9.13c0.15,0.12,0.32,0.23,0.48,0.33c4.53,2.83,7.24,7.71,7.24,13.05V259.2
+		z"/>
+	<path className="st0" d="M261.72,140.62h-89.49c-4.7,0-8.52-3.82-8.52-8.52v-28.47c0-4.7,3.82-8.52,8.52-8.52h89.49
+		c4.7,0,8.52,3.82,8.52,8.52v28.47C270.24,136.8,266.42,140.62,261.72,140.62z M175.72,128.62h82.52v-21.5h-82.52V128.62z"/>
+</g>
+</svg>

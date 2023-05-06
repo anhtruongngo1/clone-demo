@@ -1,0 +1,26 @@
+.section-about{
+        margin: 0 20;
+        margin: 0 163px;
+    
+    .section-about-header{
+        padding: 20px 10px;
+        font-size: 20px;
+        font-weight: 600;     
+    }
+    .section-about-content{
+        display: flex;
+        gap : 15px ;
+
+        .content-left{
+            width: 60%;
+            padding: 0 30px;
+        }
+        .content-right{
+            width: 40%;
+        }
+    }
+}
+.section-footer{
+    text-align: center;
+    border: 1px solid red ;   
+}

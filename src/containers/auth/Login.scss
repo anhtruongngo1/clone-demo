@@ -1,0 +1,78 @@
+.login-background{
+    background : linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+    height: 100vh;
+   
+    .login-container {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+        background-color : white;
+        border-radius: 10px ;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+
+       
+        .login-content {
+            padding: 15px;
+            .text-login{
+                text-align: center;
+                font-weight: 600;
+                font-size: 24px;
+                padding-top: 10px;
+            }
+            .login-input {
+                margin: 7px 0;
+                input {
+                    outline: none ;
+                    border: none;
+                    list-style: none;
+                }
+                .custom-input-password{
+                    position: relative;
+                    .custom-eye{
+                        font-size:25px ;
+                        position: absolute;
+                        right: 0;
+                        top :5px;
+                        opacity: 0.5;
+                        cursor: pointer;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .btn-login{
+                width: 100%;
+                outline:none ;
+                border : none ;
+                border-radius : 15px ;
+                height: 30px;
+                margin: 10px 0;
+                background : linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+                font-size: 15px;
+                color: white;
+   
+            }
+            .btn-forgot{
+                font-size: 12px;
+                outline: none;
+                list-style: none;
+                text-decoration: none;
+            }
+            .icon-login{
+                display : flex ;
+                font-size:45px;
+                justify-content: center;
+              
+                i{
+                    margin:10px;
+                }
+            }
+        }
+    }
+}

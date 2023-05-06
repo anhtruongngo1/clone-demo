@@ -1,0 +1,66 @@
+
+#TableManageUser {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #TableManageUser td, #TableManageUser th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #TableManageUser tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #TableManageUser tr:hover {background-color: #ddd;}
+  
+  #TableManageUser th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .btn-edit , .btn-delete{
+    outline: none ;
+    border : none ;
+    background: transparent;
+    color: orange;
+    &:hover {
+      background: transparent !important;
+    }
+  }
+  .modal-user-container{
+    .modal-header{
+      overflow: hidden ;
+       button {
+         background-color: transparent !important;
+         border: none;
+       font-size: 30px;
+       }
+    }
+    .modal-user-body{
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+      .input-container{
+        display:flex ;
+        flex-direction: column;
+        width: 49%;
+        &.max-wdth-input{
+          width: 100%;
+        }
+          input {
+            border-radius: 3px;
+            height: 30px;
+            border: 1px solid #ccc;
+            
+            &:focus{
+              outline: none ;
+        
+              
+            }
+          }
+      }
+    }
+  }
